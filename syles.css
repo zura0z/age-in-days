@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(150, 0, 0); 
+}
+
+.main{ 
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    -webkit-user-select: none;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia;
+}
+
+.btn{
+    padding: 10px;
+   border: none;
+   border-radius: 3.5px;
+   font-family: sans-serif;
+   cursor: pointer;
+}
+
+.red{
+    background-color: red;
+    border: 0.8px solid rgb(56, 56, 56);
+    border-style: outset;
+    color: honeydew;
+    font-weight: bold;
+}
+
+.green{
+    background-color: rgb(0, 153, 13);
+    border: 0.8px solid rgb(56, 56, 56);
+    border-style: outset;
+    color: honeydew;
+    font-weight: bold;
+}
+
+.red:hover{
+    background-color: rgb(206, 0, 0);
+    transition: ease-out 100ms;
+}
+.green:hover{
+    background-color: rgb(0, 107, 9);
+    transition: ease-out 100ms;
+}
+.btn:active{
+    border-style: inset;
+}
+button:focus {
+    outline:0;
+}
+
+section{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    -webkit-user-select: none;
+    display: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.date{
+    position: absolute;
+    top: 58.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-user-select: none;
+    width: 243px;
+}
+input{
+    font-size: 18px;
+    font-family: sans-serif ;
+    font-weight: bold;
+    width: 60px;
+    border: none;
+    border-radius: 2px;
+    border-style: inset;
+    -webkit-user-select: none;
+}
+input:focus {
+    outline: 0;
+    background-color: khaki;
+}
+#yy{
+    width: 100px;
+}
